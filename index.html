@@ -98,5 +98,39 @@
         </div>
       </div>
     </main>
+    <footer>
+      <h2>Entre em contato</h2>
+      <form action="index.php" method="POST">
+        <input
+          type="text"
+          name="userName"
+          id="userName"
+          placeholder="Nome"
+          required
+        />
+        <input
+          type="email"
+          name="userEmail"
+          id="userEmail"
+          placeholder="E-mail"
+          required
+        />
+        <input
+          type="number"
+          name="userPhoneNumber"
+          id="userPhoneNumber"
+          placeholder="Telefone"
+          required
+        />
+        <textarea
+          name="userFeedback"
+          id="userFeedback"
+          cols="30"
+          rows="10"
+          placeholder="Mensagem..."
+        ></textarea>
+        <button type="submit">Enviar mensagem</button>
+      </form>
+    </footer>
   </body>
 </html>
