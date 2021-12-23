@@ -30,3 +30,7 @@
   --yellowCard: #FFDD63;
   --blueCard: #6663FF;
 }
+
+.container {
+  padding: 0 4rem;
+}
