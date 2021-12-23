@@ -107,7 +107,6 @@ header .image img {
   width: 100%;
   max-width: 375px;
   box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.336);
-  border-radius: 10px;
 }
 
 .card .text {
