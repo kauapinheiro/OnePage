@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  font-size: 100%;
+  --titleFont: 3rem;
+  --subtitleFont: 1.125rem;
+  --buttonFont: 1.125rem;
+  --titleButtonFont: 2rem;
+  --placeholderFont: 1.2rem;
+
+  --buttonBackground: #6c63ff;
+  --headerBackground: #d7d4ff;
+  --footerBackground: #d7d4ff;
+  --titleColor: #2a2a2a;
+  --textColor: #555;
+  --mainBackground: #fff;
+  --cardBackground: #fff;
+
+  --redCard: #FF6363;
+  --cyanCard: #63ECFF;
+  --purpleCard: #F363FF;
+  --greenCard: #63FF73;
+  --yellowCard: #FFDD63;
+  --blueCard: #6663FF;
+}
